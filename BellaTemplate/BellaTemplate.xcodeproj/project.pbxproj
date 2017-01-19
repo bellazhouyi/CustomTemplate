@@ -18,6 +18,7 @@
 		47FAD13A1E30954800CA92AF /* UI_Document.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47FAD1381E30954800CA92AF /* UI_Document.txt */; };
 		47FAD13E1E30971200CA92AF /* ChangeToJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD13D1E30971200CA92AF /* ChangeToJson.m */; };
 		47FAD1421E30A3F800CA92AF /* JsonToObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1411E30A3F800CA92AF /* JsonToObj.m */; };
+		47FAD1461E30DACA00CA92AF /* SystemParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1451E30DACA00CA92AF /* SystemParam.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		47FAD13D1E30971200CA92AF /* ChangeToJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeToJson.m; sourceTree = "<group>"; };
 		47FAD1401E30A3F800CA92AF /* JsonToObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToObj.h; sourceTree = "<group>"; };
 		47FAD1411E30A3F800CA92AF /* JsonToObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToObj.m; sourceTree = "<group>"; };
+		47FAD1441E30DACA00CA92AF /* SystemParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemParam.h; sourceTree = "<group>"; };
+		47FAD1451E30DACA00CA92AF /* SystemParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemParam.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		47FAD1351E30954800CA92AF /* TOOLs */ = {
 			isa = PBXGroup;
 			children = (
+				47FAD1431E30DABB00CA92AF /* SystemParam */,
 				47FAD13F1E30A38600CA92AF /* JsonToObj */,
 				47FAD13B1E3096F200CA92AF /* ChangeToJson */,
 				47FAD1361E30954800CA92AF /* TOOLs_Document.txt */,
@@ -150,6 +154,15 @@
 				47FAD1411E30A3F800CA92AF /* JsonToObj.m */,
 			);
 			path = JsonToObj;
+			sourceTree = "<group>";
+		};
+		47FAD1431E30DABB00CA92AF /* SystemParam */ = {
+			isa = PBXGroup;
+			children = (
+				47FAD1441E30DACA00CA92AF /* SystemParam.h */,
+				47FAD1451E30DACA00CA92AF /* SystemParam.m */,
+			);
+			path = SystemParam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +243,7 @@
 				47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */,
 				47FAD1421E30A3F800CA92AF /* JsonToObj.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
+				47FAD1461E30DACA00CA92AF /* SystemParam.m in Sources */,
 				47FAD1331E3093E400CA92AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

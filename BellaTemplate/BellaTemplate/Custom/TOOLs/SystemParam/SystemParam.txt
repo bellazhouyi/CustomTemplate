@@ -1,0 +1,3 @@
+SytemParam
+
+获取系统参数
