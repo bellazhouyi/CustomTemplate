@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369670031F0F8AF700E5D15F /* aboutHHJCheck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */; };
+		369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */; };
+		369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */; };
+		369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 369670001F0F8AF700E5D15F /* NSMutableString+Check.m */; };
+		369670071F0F8AF700E5D15F /* UITableViewCell+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 369670021F0F8AF700E5D15F /* UITableViewCell+Check.m */; };
 		47FAD1131E3092F600CA92AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1121E3092F600CA92AF /* ViewController.m */; };
 		47FAD1181E3092F600CA92AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FAD1171E3092F600CA92AF /* Assets.xcassets */; };
 		47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1241E3093C900CA92AF /* AppDelegate.m */; };
@@ -21,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aboutHHJCheck.txt; sourceTree = "<group>"; };
+		36966FFB1F0F8AF700E5D15F /* NSMutableArray+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Check.h"; sourceTree = "<group>"; };
+		36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Check.m"; sourceTree = "<group>"; };
+		36966FFD1F0F8AF700E5D15F /* NSMutableDictionary+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Check.h"; sourceTree = "<group>"; };
+		36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Check.m"; sourceTree = "<group>"; };
+		36966FFF1F0F8AF700E5D15F /* NSMutableString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Check.h"; sourceTree = "<group>"; };
+		369670001F0F8AF700E5D15F /* NSMutableString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Check.m"; sourceTree = "<group>"; };
+		369670011F0F8AF700E5D15F /* UITableViewCell+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Check.h"; sourceTree = "<group>"; };
+		369670021F0F8AF700E5D15F /* UITableViewCell+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Check.m"; sourceTree = "<group>"; };
 		47FAD1081E3092F600CA92AF /* BellaTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellaTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FAD1111E3092F600CA92AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		47FAD1121E3092F600CA92AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -50,6 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36966FF91F0F8AF700E5D15F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */,
+				36966FFB1F0F8AF700E5D15F /* NSMutableArray+Check.h */,
+				36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */,
+				36966FFD1F0F8AF700E5D15F /* NSMutableDictionary+Check.h */,
+				36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */,
+				36966FFF1F0F8AF700E5D15F /* NSMutableString+Check.h */,
+				369670001F0F8AF700E5D15F /* NSMutableString+Check.m */,
+				369670011F0F8AF700E5D15F /* UITableViewCell+Check.h */,
+				369670021F0F8AF700E5D15F /* UITableViewCell+Check.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		47FAD0FF1E3092F600CA92AF = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +99,7 @@
 		47FAD10A1E3092F600CA92AF /* BellaTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				36966FF91F0F8AF700E5D15F /* Category */,
 				47FAD1341E30954800CA92AF /* Custom */,
 				47FAD1221E3093C900CA92AF /* AppDelegate */,
 				47FAD1261E3093C900CA92AF /* Base.lproj */,
@@ -213,6 +244,7 @@
 				47FAD1181E3092F600CA92AF /* Assets.xcassets in Resources */,
 				47FAD13A1E30954800CA92AF /* UI_Document.txt in Resources */,
 				47FAD1301E3093C900CA92AF /* Main.storyboard in Resources */,
+				369670031F0F8AF700E5D15F /* aboutHHJCheck.txt in Resources */,
 				47FAD12F1E3093C900CA92AF /* LaunchScreen.storyboard in Resources */,
 				47FAD1391E30954800CA92AF /* TOOLs_Document.txt in Resources */,
 				47FAD1311E3093C900CA92AF /* Info.plist in Resources */,
@@ -226,9 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */,
+				369670071F0F8AF700E5D15F /* UITableViewCell+Check.m in Sources */,
 				47FAD13E1E30971200CA92AF /* ChangeToJson.m in Sources */,
 				47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */,
 				47FAD1421E30A3F800CA92AF /* JsonToObj.m in Sources */,
+				369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */,
+				369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
 				47FAD1331E3093E400CA92AF /* main.m in Sources */,
 			);
