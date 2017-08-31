@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667831C1F57E02A007A9C3E /* RandomTool.m */; };
 		3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5691F1314FB00C0ACC8 /* BaseNetWorkRequest.m */; };
 		3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B56E1F13153000C0ACC8 /* AFHTTPSessionManager.m */; };
 		3671B5901F13153000C0ACC8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5711F13153000C0ACC8 /* AFNetworkReachabilityManager.m */; };
@@ -42,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3667831B1F57E02A007A9C3E /* RandomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomTool.h; sourceTree = "<group>"; };
+		3667831C1F57E02A007A9C3E /* RandomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomTool.m; sourceTree = "<group>"; };
 		3671B5681F1314FB00C0ACC8 /* BaseNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkRequest.h; sourceTree = "<group>"; };
 		3671B5691F1314FB00C0ACC8 /* BaseNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetWorkRequest.m; sourceTree = "<group>"; };
 		3671B56D1F13153000C0ACC8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -115,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3667831A1F57E014007A9C3E /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				3667831B1F57E02A007A9C3E /* RandomTool.h */,
+				3667831C1F57E02A007A9C3E /* RandomTool.m */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
 		3671B5671F1314A800C0ACC8 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +288,7 @@
 		47FAD1351E30954800CA92AF /* TOOLs */ = {
 			isa = PBXGroup;
 			children = (
+				3667831A1F57E014007A9C3E /* Random */,
 				47FAD13F1E30A38600CA92AF /* JsonToObj */,
 				47FAD13B1E3096F200CA92AF /* ChangeToJson */,
 				47FAD1361E30954800CA92AF /* TOOLs_Document.txt */,
@@ -400,6 +413,7 @@
 				3671B5951F13153000C0ACC8 /* AFAutoPurgingImageCache.m in Sources */,
 				3671B5921F13153000C0ACC8 /* AFURLRequestSerialization.m in Sources */,
 				3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */,
+				3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */,
 				369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */,
 				3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
