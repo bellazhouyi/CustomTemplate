@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3619B0421FB993A400688032 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3619B0411FB993A400688032 /* CustomTabBar.m */; };
+		365CA61D1FBABD0500600CA7 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */; };
+		365CA6201FBAD1ED00600CA7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */; };
+		365CA6251FBAD33B00600CA7 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */; };
+		365CA6281FBAD34E00600CA7 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */; };
 		3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667831C1F57E02A007A9C3E /* RandomTool.m */; };
 		3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5691F1314FB00C0ACC8 /* BaseNetWorkRequest.m */; };
 		3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B56E1F13153000C0ACC8 /* AFHTTPSessionManager.m */; };
@@ -43,6 +48,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3619B0401FB993A400688032 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		3619B0411FB993A400688032 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		365CA61B1FBABD0500600CA7 /* CustomTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		365CA61E1FBAD1ED00600CA7 /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		365CA6261FBAD34E00600CA7 /* CustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
 		3667831B1F57E02A007A9C3E /* RandomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomTool.h; sourceTree = "<group>"; };
 		3667831C1F57E02A007A9C3E /* RandomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomTool.m; sourceTree = "<group>"; };
 		3671B5681F1314FB00C0ACC8 /* BaseNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkRequest.h; sourceTree = "<group>"; };
@@ -300,6 +314,15 @@
 			isa = PBXGroup;
 			children = (
 				47FAD1381E30954800CA92AF /* UI_Document.txt */,
+				3619B0401FB993A400688032 /* CustomTabBar.h */,
+				3619B0411FB993A400688032 /* CustomTabBar.m */,
+				365CA61B1FBABD0500600CA7 /* CustomTabBarController.h */,
+				365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */,
+				365CA61E1FBAD1ED00600CA7 /* CustomNavigationController.h */,
+				365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */,
+				365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */,
+				365CA6261FBAD34E00600CA7 /* CustomNavigationBar.h */,
+				365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -353,6 +376,7 @@
 				TargetAttributes = {
 					47FAD1071E3092F600CA92AF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WP4P7E8A5X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -380,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365CA6251FBAD33B00600CA7 /* CustomNavigationBar.xib in Resources */,
 				47FAD1181E3092F600CA92AF /* Assets.xcassets in Resources */,
 				47FAD13A1E30954800CA92AF /* UI_Document.txt in Resources */,
 				47FAD1301E3093C900CA92AF /* Main.storyboard in Resources */,
@@ -399,8 +424,10 @@
 			files = (
 				3671B59C1F13153000C0ACC8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				3671B5941F13153000C0ACC8 /* AFURLSessionManager.m in Sources */,
+				365CA61D1FBABD0500600CA7 /* CustomTabBarController.m in Sources */,
 				369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */,
 				3671B59B1F13153000C0ACC8 /* UIProgressView+AFNetworking.m in Sources */,
+				365CA6201FBAD1ED00600CA7 /* CustomNavigationController.m in Sources */,
 				47FAD13E1E30971200CA92AF /* ChangeToJson.m in Sources */,
 				3671B5961F13153000C0ACC8 /* AFImageDownloader.m in Sources */,
 				47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */,
@@ -417,9 +444,11 @@
 				369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */,
 				3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
+				365CA6281FBAD34E00600CA7 /* CustomNavigationBar.m in Sources */,
 				3671B5901F13153000C0ACC8 /* AFNetworkReachabilityManager.m in Sources */,
 				3671B59D1F13153000C0ACC8 /* UIWebView+AFNetworking.m in Sources */,
 				3671B5931F13153000C0ACC8 /* AFURLResponseSerialization.m in Sources */,
+				3619B0421FB993A400688032 /* CustomTabBar.m in Sources */,
 				3671B59A1F13153000C0ACC8 /* UIImageView+AFNetworking.m in Sources */,
 				3671B5A11F13177900C0ACC8 /* BaseModel.m in Sources */,
 				47FAD1331E3093E400CA92AF /* main.m in Sources */,
@@ -540,7 +569,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WP4P7E8A5X;
 				INFOPLIST_FILE = "$(SRCROOT)/BellaTemplate/supportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bella.BellaTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,7 +582,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WP4P7E8A5X;
 				INFOPLIST_FILE = "$(SRCROOT)/BellaTemplate/supportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bella.BellaTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";

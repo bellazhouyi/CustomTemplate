@@ -1,0 +1,16 @@
+1、收入实时动态更新。
+	使用通知监听。
+
+2、个人信息接口
+ userID:
+ user_wechat:
+ user_phone:
+
+3、邀请好友
+
+ 邀请收入
+ 分享邀请的 链接地址 shareURLAddress
+ 链接邀请 linkShareURLAddress
+ 扫码邀请 scanShareURLAddress
+
+4、

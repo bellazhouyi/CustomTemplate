@@ -20,13 +20,33 @@ static NSString *cellIdentifier = @"cell";
     
     NSMutableArray *_array;
 }
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
+
 @end
 
 @implementation ViewController
 
++ (void)load {
+    [super load];
+    
+    NSLog(@"load");
+}
+
++ (void)initialize {
+    [super initialize];
+    
+    NSLog(@"initilize");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self loadTableView];
+    
+    NSLog(@"viewDidLoad");
+}
+
+- (void)loadTableView {
     _array = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", @"4", nil];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
@@ -56,8 +76,11 @@ static NSString *cellIdentifier = @"cell";
     
     cell.textLabel.text = [_array checkObjectAtIndex:indexPath.section];
     
-    
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
 }
 
 
