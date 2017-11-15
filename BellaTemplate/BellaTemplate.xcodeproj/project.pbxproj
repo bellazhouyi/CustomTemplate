@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3619B0421FB993A400688032 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3619B0411FB993A400688032 /* CustomTabBar.m */; };
-		365CA61D1FBABD0500600CA7 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */; };
-		365CA6201FBAD1ED00600CA7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */; };
-		365CA6251FBAD33B00600CA7 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */; };
-		365CA6281FBAD34E00600CA7 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */; };
+		365CA62B1FBADA1900600CA7 /* ATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA62A1FBADA1900600CA7 /* ATestViewController.m */; };
 		3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667831C1F57E02A007A9C3E /* RandomTool.m */; };
 		3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5691F1314FB00C0ACC8 /* BaseNetWorkRequest.m */; };
 		3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B56E1F13153000C0ACC8 /* AFHTTPSessionManager.m */; };
@@ -30,6 +26,13 @@
 		3671B59C1F13153000C0ACC8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B58C1F13153000C0ACC8 /* UIRefreshControl+AFNetworking.m */; };
 		3671B59D1F13153000C0ACC8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B58E1F13153000C0ACC8 /* UIWebView+AFNetworking.m */; };
 		3671B5A11F13177900C0ACC8 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5A01F13177900C0ACC8 /* BaseModel.m */; };
+		367340A91FBBE178001020AF /* UIView+UIViewCreateFromXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340A81FBBE178001020AF /* UIView+UIViewCreateFromXib.m */; };
+		367340B71FBBF046001020AF /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340AC1FBBF046001020AF /* CustomTabBar.m */; };
+		367340B81FBBF046001020AF /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340AE1FBBF046001020AF /* CustomTabBarController.m */; };
+		367340B91FBBF046001020AF /* BaseSettingNaviBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340B11FBBF046001020AF /* BaseSettingNaviBarViewController.m */; };
+		367340BA1FBBF046001020AF /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340B31FBBF046001020AF /* CustomNavigationBar.m */; };
+		367340BB1FBBF046001020AF /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367340B41FBBF046001020AF /* CustomNavigationBar.xib */; };
+		367340BC1FBBF046001020AF /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340B61FBBF046001020AF /* CustomNavigationController.m */; };
 		369670031F0F8AF700E5D15F /* aboutHHJCheck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */; };
 		369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */; };
 		369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */; };
@@ -48,15 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3619B0401FB993A400688032 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
-		3619B0411FB993A400688032 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
-		365CA61B1FBABD0500600CA7 /* CustomTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
-		365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
-		365CA61E1FBAD1ED00600CA7 /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
-		365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
-		365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
-		365CA6261FBAD34E00600CA7 /* CustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
-		365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		365CA6291FBADA1900600CA7 /* ATestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATestViewController.h; sourceTree = "<group>"; };
+		365CA62A1FBADA1900600CA7 /* ATestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATestViewController.m; sourceTree = "<group>"; };
 		3667831B1F57E02A007A9C3E /* RandomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomTool.h; sourceTree = "<group>"; };
 		3667831C1F57E02A007A9C3E /* RandomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomTool.m; sourceTree = "<group>"; };
 		3671B5681F1314FB00C0ACC8 /* BaseNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkRequest.h; sourceTree = "<group>"; };
@@ -96,6 +92,19 @@
 		3671B58E1F13153000C0ACC8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		3671B59F1F13177900C0ACC8 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		3671B5A01F13177900C0ACC8 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		367340A71FBBE178001020AF /* UIView+UIViewCreateFromXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewCreateFromXib.h"; sourceTree = "<group>"; };
+		367340A81FBBE178001020AF /* UIView+UIViewCreateFromXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewCreateFromXib.m"; sourceTree = "<group>"; };
+		367340AB1FBBF046001020AF /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		367340AC1FBBF046001020AF /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		367340AD1FBBF046001020AF /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		367340AE1FBBF046001020AF /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		367340B01FBBF046001020AF /* BaseSettingNaviBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSettingNaviBarViewController.h; sourceTree = "<group>"; };
+		367340B11FBBF046001020AF /* BaseSettingNaviBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSettingNaviBarViewController.m; sourceTree = "<group>"; };
+		367340B21FBBF046001020AF /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		367340B31FBBF046001020AF /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		367340B41FBBF046001020AF /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		367340B51FBBF046001020AF /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		367340B61FBBF046001020AF /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 		36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aboutHHJCheck.txt; sourceTree = "<group>"; };
 		36966FFB1F0F8AF700E5D15F /* NSMutableArray+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Check.h"; sourceTree = "<group>"; };
 		36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Check.m"; sourceTree = "<group>"; };
@@ -215,9 +224,44 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		367340A61FBBE143001020AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				367340A71FBBE178001020AF /* UIView+UIViewCreateFromXib.h */,
+				367340A81FBBE178001020AF /* UIView+UIViewCreateFromXib.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		367340AA1FBBF046001020AF /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				367340AB1FBBF046001020AF /* CustomTabBar.h */,
+				367340AC1FBBF046001020AF /* CustomTabBar.m */,
+				367340AD1FBBF046001020AF /* CustomTabBarController.h */,
+				367340AE1FBBF046001020AF /* CustomTabBarController.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		367340AF1FBBF046001020AF /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				367340B01FBBF046001020AF /* BaseSettingNaviBarViewController.h */,
+				367340B11FBBF046001020AF /* BaseSettingNaviBarViewController.m */,
+				367340B21FBBF046001020AF /* CustomNavigationBar.h */,
+				367340B31FBBF046001020AF /* CustomNavigationBar.m */,
+				367340B41FBBF046001020AF /* CustomNavigationBar.xib */,
+				367340B51FBBF046001020AF /* CustomNavigationController.h */,
+				367340B61FBBF046001020AF /* CustomNavigationController.m */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
 		36966FF91F0F8AF700E5D15F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				367340A61FBBE143001020AF /* UI */,
 				36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */,
 				36966FFB1F0F8AF700E5D15F /* NSMutableArray+Check.h */,
 				36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */,
@@ -258,6 +302,8 @@
 				47FAD12B1E3093C900CA92AF /* supportingFiles */,
 				47FAD1111E3092F600CA92AF /* ViewController.h */,
 				47FAD1121E3092F600CA92AF /* ViewController.m */,
+				365CA6291FBADA1900600CA7 /* ATestViewController.h */,
+				365CA62A1FBADA1900600CA7 /* ATestViewController.m */,
 				47FAD1171E3092F600CA92AF /* Assets.xcassets */,
 			);
 			path = BellaTemplate;
@@ -313,16 +359,9 @@
 		47FAD1371E30954800CA92AF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				367340AF1FBBF046001020AF /* Nav */,
+				367340AA1FBBF046001020AF /* Tab */,
 				47FAD1381E30954800CA92AF /* UI_Document.txt */,
-				3619B0401FB993A400688032 /* CustomTabBar.h */,
-				3619B0411FB993A400688032 /* CustomTabBar.m */,
-				365CA61B1FBABD0500600CA7 /* CustomTabBarController.h */,
-				365CA61C1FBABD0500600CA7 /* CustomTabBarController.m */,
-				365CA61E1FBAD1ED00600CA7 /* CustomNavigationController.h */,
-				365CA61F1FBAD1ED00600CA7 /* CustomNavigationController.m */,
-				365CA6241FBAD33B00600CA7 /* CustomNavigationBar.xib */,
-				365CA6261FBAD34E00600CA7 /* CustomNavigationBar.h */,
-				365CA6271FBAD34E00600CA7 /* CustomNavigationBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -404,7 +443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				365CA6251FBAD33B00600CA7 /* CustomNavigationBar.xib in Resources */,
+				367340BB1FBBF046001020AF /* CustomNavigationBar.xib in Resources */,
 				47FAD1181E3092F600CA92AF /* Assets.xcassets in Resources */,
 				47FAD13A1E30954800CA92AF /* UI_Document.txt in Resources */,
 				47FAD1301E3093C900CA92AF /* Main.storyboard in Resources */,
@@ -424,31 +463,34 @@
 			files = (
 				3671B59C1F13153000C0ACC8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				3671B5941F13153000C0ACC8 /* AFURLSessionManager.m in Sources */,
-				365CA61D1FBABD0500600CA7 /* CustomTabBarController.m in Sources */,
 				369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */,
 				3671B59B1F13153000C0ACC8 /* UIProgressView+AFNetworking.m in Sources */,
-				365CA6201FBAD1ED00600CA7 /* CustomNavigationController.m in Sources */,
+				367340B91FBBF046001020AF /* BaseSettingNaviBarViewController.m in Sources */,
 				47FAD13E1E30971200CA92AF /* ChangeToJson.m in Sources */,
 				3671B5961F13153000C0ACC8 /* AFImageDownloader.m in Sources */,
 				47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */,
+				367340B71FBBF046001020AF /* CustomTabBar.m in Sources */,
+				367340B81FBBF046001020AF /* CustomTabBarController.m in Sources */,
 				47FAD1421E30A3F800CA92AF /* JsonToObj.m in Sources */,
 				3671B5991F13153000C0ACC8 /* UIButton+AFNetworking.m in Sources */,
 				3671B5911F13153000C0ACC8 /* AFSecurityPolicy.m in Sources */,
 				369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */,
 				3671B5981F13153000C0ACC8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				3671B5971F13153000C0ACC8 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				367340BC1FBBF046001020AF /* CustomNavigationController.m in Sources */,
+				367340BA1FBBF046001020AF /* CustomNavigationBar.m in Sources */,
 				3671B5951F13153000C0ACC8 /* AFAutoPurgingImageCache.m in Sources */,
 				3671B5921F13153000C0ACC8 /* AFURLRequestSerialization.m in Sources */,
 				3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */,
+				367340A91FBBE178001020AF /* UIView+UIViewCreateFromXib.m in Sources */,
 				3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */,
 				369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */,
 				3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */,
+				365CA62B1FBADA1900600CA7 /* ATestViewController.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
-				365CA6281FBAD34E00600CA7 /* CustomNavigationBar.m in Sources */,
 				3671B5901F13153000C0ACC8 /* AFNetworkReachabilityManager.m in Sources */,
 				3671B59D1F13153000C0ACC8 /* UIWebView+AFNetworking.m in Sources */,
 				3671B5931F13153000C0ACC8 /* AFURLResponseSerialization.m in Sources */,
-				3619B0421FB993A400688032 /* CustomTabBar.m in Sources */,
 				3671B59A1F13153000C0ACC8 /* UIImageView+AFNetworking.m in Sources */,
 				3671B5A11F13177900C0ACC8 /* BaseModel.m in Sources */,
 				47FAD1331E3093E400CA92AF /* main.m in Sources */,
@@ -571,7 +613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WP4P7E8A5X;
 				INFOPLIST_FILE = "$(SRCROOT)/BellaTemplate/supportingFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bella.BellaTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,7 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WP4P7E8A5X;
 				INFOPLIST_FILE = "$(SRCROOT)/BellaTemplate/supportingFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bella.BellaTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";

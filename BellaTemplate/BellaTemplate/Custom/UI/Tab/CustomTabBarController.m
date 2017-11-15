@@ -17,7 +17,6 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    NSLog(@"11111");
 }
 
 - (void)viewDidLoad {
@@ -27,6 +26,7 @@
     CustomTabBar *customTabBar = [[CustomTabBar alloc] init];
     customTabBar.customTabBarDelegate = self;
     
+    //KVC
     [self setValue:customTabBar forKey:@"tabBar"];
 }
 

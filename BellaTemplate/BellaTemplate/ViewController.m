@@ -12,6 +12,8 @@
 #import "NSMutableArray+Check.h"
 #import "NSMutableString+Check.h"
 
+#import "ATestViewController.h"
+
 static NSString *cellIdentifier = @"cell";
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -80,7 +82,9 @@ static NSString *cellIdentifier = @"cell";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    ATestViewController *aTestVC = [[ATestViewController alloc] init];
+    aTestVC.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:aTestVC animated:YES];
 }
 
 

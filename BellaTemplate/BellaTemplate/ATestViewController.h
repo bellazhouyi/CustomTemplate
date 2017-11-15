@@ -1,5 +1,5 @@
 //
-//  CustomNavigationBar.h
+//  ATestViewController.h
 //  BellaTemplate
 //
 //  Created by 航汇聚科技 on 2017/11/14.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseSettingNaviBarViewController.h"
 
-@interface CustomNavigationBar : UINavigationBar
+@interface ATestViewController : BaseSettingNaviBarViewController
 
-+ (instancetype)xibCustomNavigationBar;
+
 
 @end

@@ -16,7 +16,10 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    //隐藏bar
+    self.navigationBar.hidden = YES;
     
+    //使右滑返回手势可用，若为YES，则取消右滑返回手势
     self.navigationBarHidden = NO;
 }
 
@@ -30,14 +33,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

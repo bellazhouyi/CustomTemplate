@@ -48,6 +48,7 @@ static NSString * const ADDLABELTEXT = @"ADD";
 - (void)layoutSubviews {
     [super layoutSubviews];
     
+    //移除背景横线
     Class UIBarBackgroundClass = NSClassFromString(@"_UIBarBackground");
     for (UIView *sonView in self.subviews) {
         if ([sonView isKindOfClass:UIBarBackgroundClass]) {
@@ -59,6 +60,7 @@ static NSString * const ADDLABELTEXT = @"ADD";
             }
         }
     }
+    
     
     CGSize addBtnSize = self.addButton.currentBackgroundImage.size;
     self.addButton.frame = CGRectMake(0, 0, addBtnSize.width, addBtnSize.height);
