@@ -12,14 +12,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomNavigationBar">
-            <rect key="frame" x="0.0" y="0.0" width="364" height="44"/>
+            <rect key="frame" x="0.0" y="0.0" width="364" height="50"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrS-tv-1gc">
-                    <rect key="frame" x="64" y="0.0" width="236" height="44"/>
+                    <rect key="frame" x="64" y="0.0" width="236" height="50"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR2-gq-eoz">
-                            <rect key="frame" x="0.0" y="0.0" width="236" height="44"/>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR2-gq-eoz">
+                            <rect key="frame" x="0.0" y="0.0" width="236" height="50"/>
                             <state key="normal" title="Button">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -34,10 +34,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYn-9x-3bZ">
-                    <rect key="frame" x="300" y="0.0" width="64" height="44"/>
+                    <rect key="frame" x="300" y="0.0" width="64" height="50"/>
                     <subviews>
-                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvs-W2-qmg">
-                            <rect key="frame" x="0.0" y="0.0" width="64" height="44"/>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvs-W2-qmg">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="50"/>
                             <state key="normal" title="Button">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -56,12 +56,19 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UZ-uy-6hi">
-                    <rect key="frame" x="0.0" y="0.0" width="64" height="44"/>
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="50"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbp-RY-MjH">
-                            <rect key="frame" x="0.0" y="0.0" width="64" height="44"/>
-                            <state key="normal" title="Button">
-                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gbp-RY-MjH">
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="50"/>
+                            <state key="normal" image="returnImage">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="返回">
+                                        <attributes>
+                                            <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                             </state>
                             <connections>
                                 <action selector="leftBtnClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="jgk-nB-xbv"/>
@@ -78,7 +85,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="rrS-tv-1gc" firstAttribute="leading" secondItem="0UZ-uy-6hi" secondAttribute="trailing" id="4pa-hl-zRy"/>
                 <constraint firstAttribute="bottom" secondItem="rrS-tv-1gc" secondAttribute="bottom" id="E20-ZH-Ly9"/>
@@ -103,4 +110,7 @@
             <point key="canvasLocation" x="28" y="-252.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="returnImage" width="24" height="27"/>
+    </resources>
 </document>

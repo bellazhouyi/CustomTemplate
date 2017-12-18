@@ -18,6 +18,14 @@
 
 @implementation BaseSettingNaviBarViewController
 
++ (void)load {
+    NSLog(@"BaseSettingNaviBarViewController load");
+}
++ (void)initialize {
+    [super initialize];
+    
+    NSLog(@"BaseSettingNaviBarViewController initilize");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -47,8 +55,8 @@
         }
     }
     
-    [self.leftButton setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-    [self.leftButton setTitle:@"" forState:UIControlStateNormal];
+    [self.leftButton setImage:[UIImage imageNamed:@"returnImage"] forState:UIControlStateNormal];
+    [self.leftButton setTitle:@"返回" forState:UIControlStateNormal];
     __weak typeof(self) ws = self;
     _customNavigationBar.leftBtnClickHandler = ^{
         __strong typeof(self) strongSelf = ws;

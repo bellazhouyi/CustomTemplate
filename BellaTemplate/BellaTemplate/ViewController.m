@@ -12,7 +12,10 @@
 #import "NSMutableArray+Check.h"
 #import "NSMutableString+Check.h"
 
+#import "CustomNavigationController.h"
 #import "ATestViewController.h"
+#import "BTestViewController.h"
+#import "CTestViewController.h"
 
 static NSString *cellIdentifier = @"cell";
 
@@ -68,23 +71,43 @@ static NSString *cellIdentifier = @"cell";
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
-}
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return _array.count + 3;
+    return _array.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [_array checkObjectAtIndex:indexPath.section];
+    cell.textLabel.text = [_array checkObjectAtIndex:indexPath.row];
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ATestViewController *aTestVC = [[ATestViewController alloc] init];
-    aTestVC.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController pushViewController:aTestVC animated:YES];
+    switch (indexPath.row) {
+        case 0:
+        {
+            ATestViewController *aTestVC = [[ATestViewController alloc] init];
+            aTestVC.view.backgroundColor = [UIColor whiteColor];
+            [self.navigationController pushViewController:aTestVC animated:YES];
+        }
+            break;
+        case 1:
+        {
+            BTestViewController *bTestVC = [[BTestViewController alloc] init];
+            bTestVC.view.backgroundColor = [UIColor greenColor];
+            [self.navigationController pushViewController:bTestVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            CTestViewController *bTestVC = [[CTestViewController alloc] init];
+            bTestVC.view.backgroundColor = [UIColor greenColor];
+            [self.navigationController pushViewController:bTestVC animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
+    
 }
 
 

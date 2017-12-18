@@ -10,6 +10,9 @@
 
 typedef void(^NavigationBarClickBlock)();
 
+/**
+ 默认的自定义NavigationBar
+ */
 @interface CustomNavigationBar : UIView
 
 @property (weak, nonatomic) IBOutlet UIView *leftView;

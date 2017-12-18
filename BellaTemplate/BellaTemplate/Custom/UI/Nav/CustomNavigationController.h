@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 自定义NavigationController
+ */
 @interface CustomNavigationController : UINavigationController
 
 @end

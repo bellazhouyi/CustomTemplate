@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		365CA62B1FBADA1900600CA7 /* ATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365CA62A1FBADA1900600CA7 /* ATestViewController.m */; };
+		366253A11FC7D05500C26CCA /* ZYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366253A01FC7D05500C26CCA /* ZYAppDelegate.m */; };
 		3667831D1F57E02A007A9C3E /* RandomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3667831C1F57E02A007A9C3E /* RandomTool.m */; };
 		3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B5691F1314FB00C0ACC8 /* BaseNetWorkRequest.m */; };
 		3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671B56E1F13153000C0ACC8 /* AFHTTPSessionManager.m */; };
@@ -33,10 +34,16 @@
 		367340BA1FBBF046001020AF /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340B31FBBF046001020AF /* CustomNavigationBar.m */; };
 		367340BB1FBBF046001020AF /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367340B41FBBF046001020AF /* CustomNavigationBar.xib */; };
 		367340BC1FBBF046001020AF /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340B61FBBF046001020AF /* CustomNavigationController.m */; };
+		367340BF1FBC0C0F001020AF /* BTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340BE1FBC0C0F001020AF /* BTestViewController.m */; };
+		367340C71FBC1FC6001020AF /* RootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 367340C61FBC1FC6001020AF /* RootUIService.m */; };
+		368007D71FBD374A0098956B /* PointView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368007D61FBD374A0098956B /* PointView.xib */; };
+		368007DA1FBD37570098956B /* PointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368007D91FBD37570098956B /* PointView.m */; };
 		369670031F0F8AF700E5D15F /* aboutHHJCheck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */; };
 		369670041F0F8AF700E5D15F /* NSMutableArray+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */; };
 		369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */; };
 		369670061F0F8AF700E5D15F /* NSMutableString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 369670001F0F8AF700E5D15F /* NSMutableString+Check.m */; };
+		36FCEC7B1FE3C1AC00525CCD /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FCEC7A1FE3C1AC00525CCD /* UIViewController+BarButton.m */; };
+		36FCEC7E1FE3C30F00525CCD /* CTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FCEC7D1FE3C30F00525CCD /* CTestViewController.m */; };
 		47FAD1131E3092F600CA92AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1121E3092F600CA92AF /* ViewController.m */; };
 		47FAD1181E3092F600CA92AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FAD1171E3092F600CA92AF /* Assets.xcassets */; };
 		47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FAD1241E3093C900CA92AF /* AppDelegate.m */; };
@@ -53,6 +60,8 @@
 /* Begin PBXFileReference section */
 		365CA6291FBADA1900600CA7 /* ATestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATestViewController.h; sourceTree = "<group>"; };
 		365CA62A1FBADA1900600CA7 /* ATestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATestViewController.m; sourceTree = "<group>"; };
+		3662539F1FC7D05500C26CCA /* ZYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAppDelegate.h; sourceTree = "<group>"; };
+		366253A01FC7D05500C26CCA /* ZYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppDelegate.m; sourceTree = "<group>"; };
 		3667831B1F57E02A007A9C3E /* RandomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomTool.h; sourceTree = "<group>"; };
 		3667831C1F57E02A007A9C3E /* RandomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomTool.m; sourceTree = "<group>"; };
 		3671B5681F1314FB00C0ACC8 /* BaseNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetWorkRequest.h; sourceTree = "<group>"; };
@@ -105,6 +114,13 @@
 		367340B41FBBF046001020AF /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
 		367340B51FBBF046001020AF /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
 		367340B61FBBF046001020AF /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		367340BD1FBC0C0F001020AF /* BTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTestViewController.h; sourceTree = "<group>"; };
+		367340BE1FBC0C0F001020AF /* BTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTestViewController.m; sourceTree = "<group>"; };
+		367340C51FBC1FC6001020AF /* RootUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootUIService.h; sourceTree = "<group>"; };
+		367340C61FBC1FC6001020AF /* RootUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootUIService.m; sourceTree = "<group>"; };
+		368007D61FBD374A0098956B /* PointView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointView.xib; sourceTree = "<group>"; };
+		368007D81FBD37570098956B /* PointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointView.h; sourceTree = "<group>"; };
+		368007D91FBD37570098956B /* PointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointView.m; sourceTree = "<group>"; };
 		36966FFA1F0F8AF700E5D15F /* aboutHHJCheck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aboutHHJCheck.txt; sourceTree = "<group>"; };
 		36966FFB1F0F8AF700E5D15F /* NSMutableArray+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Check.h"; sourceTree = "<group>"; };
 		36966FFC1F0F8AF700E5D15F /* NSMutableArray+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Check.m"; sourceTree = "<group>"; };
@@ -112,6 +128,10 @@
 		36966FFE1F0F8AF700E5D15F /* NSMutableDictionary+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Check.m"; sourceTree = "<group>"; };
 		36966FFF1F0F8AF700E5D15F /* NSMutableString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Check.h"; sourceTree = "<group>"; };
 		369670001F0F8AF700E5D15F /* NSMutableString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Check.m"; sourceTree = "<group>"; };
+		36FCEC791FE3C1AC00525CCD /* UIViewController+BarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
+		36FCEC7A1FE3C1AC00525CCD /* UIViewController+BarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
+		36FCEC7C1FE3C30F00525CCD /* CTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTestViewController.h; sourceTree = "<group>"; };
+		36FCEC7D1FE3C30F00525CCD /* CTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTestViewController.m; sourceTree = "<group>"; };
 		47FAD1081E3092F600CA92AF /* BellaTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellaTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FAD1111E3092F600CA92AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		47FAD1121E3092F600CA92AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -141,6 +161,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		366253A21FC7D10B00C26CCA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				367131FE1FD525210007799F /* 16年 */,
+				367131FF1FD525210007799F /* 17年 */,
+				366253A31FC7D12200C26CCA /* ChildVC */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		366253A31FC7D12200C26CCA /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChildVC;
+			sourceTree = "<group>";
+		};
 		3667831A1F57E014007A9C3E /* Random */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +185,20 @@
 				3667831C1F57E02A007A9C3E /* RandomTool.m */,
 			);
 			path = Random;
+			sourceTree = "<group>";
+		};
+		367131FE1FD525210007799F /* 16年 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16年";
+			sourceTree = "<group>";
+		};
+		367131FF1FD525210007799F /* 17年 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17年";
 			sourceTree = "<group>";
 		};
 		3671B5671F1314A800C0ACC8 /* NetWork */ = {
@@ -229,6 +280,8 @@
 			children = (
 				367340A71FBBE178001020AF /* UIView+UIViewCreateFromXib.h */,
 				367340A81FBBE178001020AF /* UIView+UIViewCreateFromXib.m */,
+				36FCEC791FE3C1AC00525CCD /* UIViewController+BarButton.h */,
+				36FCEC7A1FE3C1AC00525CCD /* UIViewController+BarButton.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -256,6 +309,22 @@
 				367340B61FBBF046001020AF /* CustomNavigationController.m */,
 			);
 			path = Nav;
+			sourceTree = "<group>";
+		};
+		367340C01FBC1519001020AF /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		367340C41FBC1FB1001020AF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				367340C51FBC1FC6001020AF /* RootUIService.h */,
+				367340C61FBC1FC6001020AF /* RootUIService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		36966FF91F0F8AF700E5D15F /* Category */ = {
@@ -292,6 +361,8 @@
 		47FAD10A1E3092F600CA92AF /* BellaTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				366253A21FC7D10B00C26CCA /* Scene */,
+				367340C41FBC1FB1001020AF /* Service */,
 				3671B59E1F13176F00C0ACC8 /* Model */,
 				3671B56B1F13153000C0ACC8 /* Vender */,
 				3671B5671F1314A800C0ACC8 /* NetWork */,
@@ -304,6 +375,13 @@
 				47FAD1121E3092F600CA92AF /* ViewController.m */,
 				365CA6291FBADA1900600CA7 /* ATestViewController.h */,
 				365CA62A1FBADA1900600CA7 /* ATestViewController.m */,
+				367340BD1FBC0C0F001020AF /* BTestViewController.h */,
+				367340BE1FBC0C0F001020AF /* BTestViewController.m */,
+				36FCEC7C1FE3C30F00525CCD /* CTestViewController.h */,
+				36FCEC7D1FE3C30F00525CCD /* CTestViewController.m */,
+				368007D81FBD37570098956B /* PointView.h */,
+				368007D91FBD37570098956B /* PointView.m */,
+				368007D61FBD374A0098956B /* PointView.xib */,
 				47FAD1171E3092F600CA92AF /* Assets.xcassets */,
 			);
 			path = BellaTemplate;
@@ -314,6 +392,8 @@
 			children = (
 				47FAD1231E3093C900CA92AF /* AppDelegate.h */,
 				47FAD1241E3093C900CA92AF /* AppDelegate.m */,
+				3662539F1FC7D05500C26CCA /* ZYAppDelegate.h */,
+				366253A01FC7D05500C26CCA /* ZYAppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -339,6 +419,7 @@
 		47FAD1341E30954800CA92AF /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				367340C01FBC1519001020AF /* Notification */,
 				47FAD1351E30954800CA92AF /* TOOLs */,
 				47FAD1371E30954800CA92AF /* UI */,
 			);
@@ -450,6 +531,7 @@
 				369670031F0F8AF700E5D15F /* aboutHHJCheck.txt in Resources */,
 				47FAD12F1E3093C900CA92AF /* LaunchScreen.storyboard in Resources */,
 				47FAD1391E30954800CA92AF /* TOOLs_Document.txt in Resources */,
+				368007D71FBD374A0098956B /* PointView.xib in Resources */,
 				47FAD1311E3093C900CA92AF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +549,7 @@
 				3671B59B1F13153000C0ACC8 /* UIProgressView+AFNetworking.m in Sources */,
 				367340B91FBBF046001020AF /* BaseSettingNaviBarViewController.m in Sources */,
 				47FAD13E1E30971200CA92AF /* ChangeToJson.m in Sources */,
+				366253A11FC7D05500C26CCA /* ZYAppDelegate.m in Sources */,
 				3671B5961F13153000C0ACC8 /* AFImageDownloader.m in Sources */,
 				47FAD12D1E3093C900CA92AF /* AppDelegate.m in Sources */,
 				367340B71FBBF046001020AF /* CustomTabBar.m in Sources */,
@@ -475,11 +558,15 @@
 				3671B5991F13153000C0ACC8 /* UIButton+AFNetworking.m in Sources */,
 				3671B5911F13153000C0ACC8 /* AFSecurityPolicy.m in Sources */,
 				369670051F0F8AF700E5D15F /* NSMutableDictionary+Check.m in Sources */,
+				368007DA1FBD37570098956B /* PointView.m in Sources */,
 				3671B5981F13153000C0ACC8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				3671B5971F13153000C0ACC8 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				367340BC1FBBF046001020AF /* CustomNavigationController.m in Sources */,
 				367340BA1FBBF046001020AF /* CustomNavigationBar.m in Sources */,
 				3671B5951F13153000C0ACC8 /* AFAutoPurgingImageCache.m in Sources */,
+				367340BF1FBC0C0F001020AF /* BTestViewController.m in Sources */,
+				36FCEC7B1FE3C1AC00525CCD /* UIViewController+BarButton.m in Sources */,
+				367340C71FBC1FC6001020AF /* RootUIService.m in Sources */,
 				3671B5921F13153000C0ACC8 /* AFURLRequestSerialization.m in Sources */,
 				3671B56A1F1314FB00C0ACC8 /* BaseNetWorkRequest.m in Sources */,
 				367340A91FBBE178001020AF /* UIView+UIViewCreateFromXib.m in Sources */,
@@ -488,6 +575,7 @@
 				3671B58F1F13153000C0ACC8 /* AFHTTPSessionManager.m in Sources */,
 				365CA62B1FBADA1900600CA7 /* ATestViewController.m in Sources */,
 				47FAD1131E3092F600CA92AF /* ViewController.m in Sources */,
+				36FCEC7E1FE3C30F00525CCD /* CTestViewController.m in Sources */,
 				3671B5901F13153000C0ACC8 /* AFNetworkReachabilityManager.m in Sources */,
 				3671B59D1F13153000C0ACC8 /* UIWebView+AFNetworking.m in Sources */,
 				3671B5931F13153000C0ACC8 /* AFURLResponseSerialization.m in Sources */,

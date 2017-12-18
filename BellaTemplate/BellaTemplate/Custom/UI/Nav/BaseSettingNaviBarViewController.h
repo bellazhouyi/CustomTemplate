@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 /**
- 对自定义navigationBar的基本设置类
+ 为 所有自定义导航栏VC的父类
  */
 @interface BaseSettingNaviBarViewController : UIViewController
 

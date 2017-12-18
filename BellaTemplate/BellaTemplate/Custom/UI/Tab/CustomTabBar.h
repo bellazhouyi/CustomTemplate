@@ -16,6 +16,9 @@
 
 @end
 
+/**
+ 自定义tabBar
+ */
 @interface CustomTabBar : UITabBar
 
 @property (nonatomic, weak) id<CustomTabBarDelegate> customTabBarDelegate;
